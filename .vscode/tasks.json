@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "tasks": [
+    {
+    "isBuildCommand": true,
+    "taskName": "compile",
+    "command": "g++",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "args": ["-g", "hello_world.cpp"]
+},
+{
+    "isTestCommand": true,
+    "taskName": "test",
+    "command": "./a.out",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "args": []
+    }
+    ]
+}
